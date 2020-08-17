@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Fixer.CQRS.Commands\src\Fixer.CQRS.Commands\Fixer.CQRS.Commands.csproj" />
+    <ProjectReference Include="..\..\..\Fixer.CQRS.Events\src\Fixer.CQRS.Events\Fixer.CQRS.Events.csproj" />
+    <ProjectReference Include="..\..\..\Fixer.MessageBrokers\src\Fixer.MessageBrokers\Fixer.MessageBrokers.csproj" />
+  </ItemGroup>
+
+</Project>
